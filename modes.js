@@ -4,21 +4,24 @@ modeIconMoon = document.querySelector('.fa-moon');
 
 let mode = localStorage.getItem('mode');
 if(mode == null){
-    localStorage.setItem('mode','light')
+    localStorage.setItem('mode','')
 }
-body.classList.add(mode);
+body.classList.add(mode)
 
 
 function switchMode(){
-    if(mode == 'light'){
+    if(mode == ''){
         localStorage.setItem('mode','dark');
         body.classList.add('dark');
         modeIconMoon.style.display = 'inline';
         modeIconMoon.style.display = 'none';
-    }else{
-        localStorage.setItem('mode','light');
+    }
+    else if(mode == 'dark'){
+        localStorage.setItem('mode','');
         body.classList.toggle('dark');
         modeIconMoon.style.display = 'none';
         modeIconMoon.style.display = 'inline';
+        console.log(mode);
     }
+    
 }
