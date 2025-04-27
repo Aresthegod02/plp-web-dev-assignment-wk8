@@ -9,9 +9,23 @@
     --pimary-color: white;
     --secondary-color: black;
     --highlight-color: rgb(235, 232, 232);
-    --tertiary-color1: rgba(7, 66, 7, 0.644);
+    --tertiary-color1: rgba(7, 70, 7, 0.856);
     --tertiary-color2: rgb(3, 250, 3);
 
+}
+.dark{
+    --pimary-color: black;
+    --secondary-color: white;
+    --highlight-color: rgb(46, 40, 40);
+    --tertiary-color1: rgb(3, 250, 3);
+    --tertiary-color2: rgba(7, 70, 7, 0.856);
+    
+}
+
+body{
+    background-color: var(--pimary-color);
+    color: var(--secondary-color);
+    transition: all .25s;
 }
 
 nav{
