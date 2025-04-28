@@ -8,7 +8,7 @@
 :root{
     --pimary-color: white;
     --secondary-color: black;
-    --highlight-color: rgb(235, 232, 232);
+    --highlight-color: #f9f9f9;
     --tertiary-color1: rgba(7, 70, 7, 0.856);
     --tertiary-color2: rgb(3, 250, 3);
     --other-color: #033649;
@@ -88,7 +88,7 @@ ul span{
     border-radius: 4vh;
 }
 
-.hero {
+#hero {
     width: 90%;
     background: #033649;
     color: var(--pimary-color);
@@ -139,7 +139,7 @@ ul span{
     text-decoration: none;
     font-weight: 600;
 }
-.about {
+#about {
     padding: 80px 0;
 }
 
@@ -195,10 +195,14 @@ ul span{
     gap: 15px;
 }
 
-.services {
-    background: #f9f9f9;
-    padding: 80px 0;
+#services {
+    background: var(--highlight-color);
+    color: var(--secondary-color);
+    width: 80%;
+    border-radius: 2vh;
+    padding: 10vh 0;
     text-align: center;
+    margin-bottom: 10vh;
 }
 
 .services-container h2 {
@@ -214,7 +218,7 @@ ul span{
 }
 
 .service-box {
-    background: #fff;
+    background-color: var(--pimary-color);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -229,12 +233,17 @@ ul span{
 .service-box img {
     width: 50px;
     margin-bottom: 20px;
+    position: relative;
 }
-.services {
-    background: #f9f9f9;
-    padding: 80px 0;
-    text-align: center;
+.service-box img::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: var(--secondary-color);
 }
+
 .services-container h2 {
     margin-bottom: 40px;
     font-size: 2rem;
@@ -244,14 +253,6 @@ ul span{
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
-}
-.service-box {
-    background: #fff;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 250px;
-    transition: transform 0.3s ease;
 }
 
 .service-box:hover {

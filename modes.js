@@ -32,4 +32,4 @@ function switchMode(){
     }
     
 }
-
+console.log(getBoundingClientRect().top)
