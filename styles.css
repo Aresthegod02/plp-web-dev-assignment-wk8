@@ -11,6 +11,7 @@
     --highlight-color: rgb(235, 232, 232);
     --tertiary-color1: rgba(7, 70, 7, 0.856);
     --tertiary-color2: rgb(3, 250, 3);
+    --other-color: #033649;
 
 }
 .dark{
@@ -25,6 +26,9 @@
 body{
     background-color: var(--pimary-color);
     color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     transition: all .25s;
 }
 
@@ -35,9 +39,6 @@ nav{
     grid-template-columns: 40% 60%;
 }
 
-nav  div{
-    border: 2px solid;
-}
 
 nav  div ul{
 
@@ -63,11 +64,37 @@ a{
     font-weight: bold;
 }
 
-.hero {
-    background: #033649;
-    color: #fff;
-    padding: 100px 0;
+.search{
+    outline: none;
     text-align: center;
+    position: absolute;
+    width: 12vw;
+    height: 5vh;
+    top: -1vh;
+    left: -12.5vw;
+    border-radius: 2vh;
+    border: 3px solid var(--tertiary-color2);
+    background-color: var(--highlight-color);
+    opacity: 0.9;
+}
+
+ul span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+    background-color: var(--highlight-color); 
+    border-radius: 4vh;
+}
+
+.hero {
+    width: 90%;
+    background: #033649;
+    color: var(--pimary-color);
+    padding: 10vh 0;
+    text-align: center;
+    border-radius: 1vh;
 }
 
 .hero-container {
@@ -248,27 +275,6 @@ a{
 ul > div{
     position: relative;
 }
-#search{
-    display: none;
-    position: absolute;
-    width: 12vw;
-    height: 5vh;
-    top: 0;
-    left: -12vw;
-    border-radius: 2vh;
-    border: 1px solid var(--secondary-color);
-    background-color: var(--highlight-color);
-    opacity: 0.9;
-}
 
-.fa-sun{
-    display: none;
-}
-.fa-moon{
-    display: none;
-}
 
-input{
-    outline: none;
-    text-align: center;
-}
+
