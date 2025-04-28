@@ -25,3 +25,12 @@ function switchMode(){
     }
     
 }
+const showMoreBtn = document.getElementById('showMoreServices');
+const moreServices = document.querySelectorAll('.more-service');
+
+showMoreBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    moreServices.forEach(service => {
+        service.classList.toggle('hidden');
+    });
+});
