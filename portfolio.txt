@@ -1,62 +1,42 @@
+ALEXA NGEMA
+Nairobi, Kenya
+📧 alexa.ngema@example.com
+📱 +254 712 345 678
+🌐 Portfolio: alexa.ngema.dev
+🔗 LinkedIn: linkedin.com/in/Alexa Ngema
+🎨 Behance: behance.net/Alexa Ngema
+📸 Instagram: instagram.com/Alexa Ngema
+🐦 Twitter: twitter.com/Alexa Ngema
 
-**ALEXA NGEMA**  
-Nairobi, Kenya  
-📧 alexa.ngema@example.com  
-📱 +254 712 345 678  
-🌐 Portfolio: alexa.ngema.dev  
-🔗 LinkedIn: linkedin.com/in/Alexa Ngema  
-🎨 Behance: behance.net/Alexa Ngema  
-📸 Instagram: instagram.com/Alexa Ngema  
-🐦 Twitter: twitter.com/Alexa Ngema  
-
----
-
-### **Professional Summary**  
+Professional Summary
 Creative and detail-oriented Web Developer and UI/UX Designer with a strong passion for crafting seamless, modern, and user-centred digital experiences. Skilled in building high-performance websites and interfaces that blend functionality with aesthetic appeal. Always exploring new tools and trends, I thrive on solving real-world problems through thoughtful design and clean, efficient code.
 
----
-
-### **Core Skills**  
-HTML5, CSS3, JavaScript (ES6+), Responsive Web Design, UI/UX Design & Prototyping,  
-Figma, Adobe XD, Photoshop, SEO Optimization, Website Maintenance, App Interface Design,  
+Core Skills
+HTML5, CSS3, JavaScript (ES6+), Responsive Web Design, UI/UX Design & Prototyping,
+Figma, Adobe XD, Photoshop, SEO Optimization, Website Maintenance, App Interface Design,
 Git & GitHub, Accessibility-First Design
 
----
+Services Offered
+Web Development: Crafting responsive, high-speed websites optimized for all screen sizes
+UI/UX Design: Building interfaces that are both visually appealing and intuitive
+App Interface Design: Designing seamless and modern interfaces for mobile/web apps
+SEO Optimization: Enhancing web visibility and user engagement
+Website Maintenance: Providing ongoing support, updates, and optimizations
+Experience
+Lead Web Developer & UI Designer
+Freelance | Nairobi, Kenya | 2021 – Present
 
-### **Services Offered**  
-- **Web Development:** Crafting responsive, high-speed websites optimized for all screen sizes  
-- **UI/UX Design:** Building interfaces that are both visually appealing and intuitive  
-- **App Interface Design:** Designing seamless and modern interfaces for mobile/web apps  
-- **SEO Optimization:** Enhancing web visibility and user engagement  
-- **Website Maintenance:** Providing ongoing support, updates, and optimizations
-
----
-
-### **Experience**  
-**Lead Web Developer & UI Designer**  
-Freelance | Nairobi, Kenya | 2021 – Present  
-- Designed and developed custom websites for start-ups and SMEs  
-- Translated wireframes and ideas into interactive digital products  
-- Maintained and updated websites, improving performance and engagement
-
----
-
-### **Education**  
-**Bachelor’s Degree in Computer Science**  
-University of Nairobi, Kenya  
+Designed and developed custom websites for start-ups and SMEs
+Translated wireframes and ideas into interactive digital products
+Maintained and updated websites, improving performance and engagement
+Education
+Bachelor’s Degree in Computer Science
+University of Nairobi, Kenya
 Graduated: 2020
 
----
-
-### **Achievements**  
-- Completed 50+ client projects with 100% satisfaction  
-- Improved client SEO rankings by up to 60%  
-- Launched 10+ mobile-responsive app interfaces for start-ups.
-
----
-
-### **References**  
+Achievements
+Completed 50+ client projects with 100% satisfaction
+Improved client SEO rankings by up to 60%
+Launched 10+ mobile-responsive app interfaces for start-ups.
+References
 Available upon request
-
----
-
