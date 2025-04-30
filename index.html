@@ -15,26 +15,27 @@
         <div class="nav-bar left">
             
         </div>
-        <div class="nav-bar right">
-            <ul>
-                <a href="#hero"><li>Home</li></a>
-                <a href="#about"><li>About</li></a>
-                <a href="#services"><li>Services</li></a>
-                <a href="#blog"><li>Blog</li></a>
-                <a href=""><li>Projects</li></a>
-                <a href="#footerarea"><li>Contact</li></a>
-                <button class="hire-btn">
-                    Hire Me
-                </button>
-                <div class="searchBox">
-                    <input type="text" class="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-                <span onclick="switchMode()">
-                    <i class="fa-regular fa-moon"></i>
-                    <i class="fa-regular fa-sun"></i>
-                </span>
-            </ul>
+        <div class="nav-bar left">
+    <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#blog">Blog</a></li>
+       <li><a href="portfolio.txt" class="btn portfolio-btn" target="_blank">My Portfolio</a></li>
+            <li>
+                <a href="mailto:alexa.ngema@gmail.com?subject=Interview%20Opportunity&body=Hi%20Alexa%2C%0A%0AI%20recently%20came%20across%20your%20portfolio%20and%20I%20just%20had%20to%20reach%20out.%20Your%20work%20is%20incredibly%20impressive%20%E2%80%94%20clean%2C%20modern%2C%20and%20speaks%20volumes%20about%20your%20eye%20for%20detail%20and%20user%20experience.%20It%E2%80%99s%20exactly%20the%20kind%20of%20talent%20we%E2%80%99re%20looking%20for.%0A%0AWe%E2%80%99d%20be%20absolutely%20thrilled%20to%20explore%20the%20possibility%20of%20working%20together.%20I%E2%80%99d%20love%20to%20schedule%20an%20interview%20with%20you%20to%20dive%20deeper%20into%20your%20process%2C%20hear%20more%20about%20your%20journey%2C%20and%20talk%20through%20some%20upcoming%20opportunities%20we%20think%20you'd%20be%20a%20perfect%20fit%20for.%0A%0AAre%20you%20available%20this%20week%20for%20a%20quick%2030-minute%20virtual%20chat%3F%20Let%20me%20know%20what%20works%20best%20for%20you%20and%20I%E2%80%99ll%20make%20it%20happen.%0A%0ALooking%20forward%20to%20connecting!%0A%0AWarm%20regards%2C%0A%5BYour%20Name%5D%0A%5BYour%20Company%5D" 
+                   class="hire-btn">Hire Me</a>
+              </li>
+              
+    
+        
+        <li>
+            <span onclick="switchMode()">
+                <i class="fas fa-moon mode-icon" onclick="switchMode()"></i>
+                <i id="modeToggleIcon" class= "fas fa-sun" onclick= "switchMode()"></i>
+            </span>
+        </li>
+    </ul>
         </div>
     </nav>
     <section id="hero">
@@ -43,12 +44,11 @@
                 <h1>Hi, I'm Alexa Ngema<br><span>Web Developer</span></h1>
                 <p>Crafting elegant websites and intuitive interfaces that elevate your brand and captivate your audience.</p>            
                 <div class="hero-buttons">
-                    <a href="#" class="btn hire-me-btn">Hire Me</a>
-                    <a href="#" class="btn portfolio-btn">My Portfolio</a>
+                    <a href="portfolio.txt" class="btn portfolio-btn" target="_blank">My Portfolio</a>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="Images/Persona.jpg" alt="Alexa Ngema" width="50%" height="30%" style="border-radius: 50%;">
+                <img src="Images/Persona.jpg" alt="Alexa Ngema" class="hero-image-style">
             </div>
         </div>
     </section>
@@ -68,15 +68,10 @@
                     <p><strong>Email:</strong> alexa.ngema@example.com</p>
                     <p><strong>Phone:</strong> +254 712 345 678</p>
                 </div>
-                <div class="socials">
-                    <a href="#">LinkedIn</a>
-                    <a href="#">Behance</a>
-                    <a href="#">Instagram</a>
-                    <a href="#">Twitter</a>
-                </div>
+               
             </div>
             <div class="about-buttons">
-                <a href="#" class="btn portfolio-btn">Download CV</a>
+                <a href="portfolio.txt" class="btn portfolio-btn">Download CV</a>
             </div>
         </div>
     </section>
@@ -114,7 +109,14 @@
                     <p>I offer ongoing support, updates, and improvements to keep websites running smoothly and securely.</p>
                 </div>
             </div><br>
-            <a href="#" class="more-service">More Services ➔</a>
+
+
+            <div class="socials">
+                <a href="#">LinkedIn</a>
+                <a href="#">Behance</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
         </div>
     </section>
 </body>
